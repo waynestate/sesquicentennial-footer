@@ -1,0 +1,33 @@
+// Small
+.wsu-sesquicentennial {
+    margin: 0 auto;
+    max-width: 73.125rem;
+    width: 100%;
+
+    &__link {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 20px;
+    }
+
+    &__background {
+        background: url('https://150.wayne.edu/images/150-footer-background-image.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    &__title {
+        max-width: 750px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+// Large
+@media (min-width: 600px) {
+    .wsu-sesquicentennial {
+        &__link {
+            padding: 30px;
+        }
+    }
+}
