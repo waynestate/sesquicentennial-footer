@@ -1,6 +1,6 @@
 {
     "name": "@waynestate/sesquicentennial-footer",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Wayne State University Sesquicentennial Footer",
     "scripts": {
         "build": "./build.sh"
